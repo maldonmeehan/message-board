@@ -1,1 +1,10 @@
 <h1> Welcome to Message Board </h1>
+<h2>Questions</h2>
+
+<ul>
+  {{#each question as |question|}}
+     <li>By: {{question.name}} Question: {{question.content}}</li>
+  {{/each}}
+</ul>
+
+<!-- We'll use a helper called {{each}} to loop through each object in our model and display its information, We loop through each object in the model hook defined in the index route handler, and call it question. For each quesiton, we create a list item and display its name and content. -->
