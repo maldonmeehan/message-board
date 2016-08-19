@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     questionFormShow() {
       this.set('addNewQuestion', true);
     },
-    
+
     save1() {
       var params = {
         name: this.get('name'),
