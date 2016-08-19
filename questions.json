@@ -1,14 +1,22 @@
 { "questions": [{
     "name": "Alex Trebek",
-    "content": "Her recording career lasted just eight years, starting in 1955 with A Church, A Courtroom And Then Good-Bye.",
-    "note": "Music for 500"
+    "content": "Toys for 500: Original sets of this toy that was first sold in 1918 included plans for building Uncle Tom's Cabin.",
+    "note": "Was it: Legos, Lincoln Logs, Fiddlestix and Woodbuilders"
   }, {
     "name": "Alex Trebek",
-    "content": "Other than Q, these two letters appear the least in the names of states, each appearing only once.",
-    "note": "English for 500"
+    "content": "English for 500: Other than Q, these two letters appear the least in the names of states, each appearing only once.",
+    "note": "Is it: V and X, F and K, J and Z or X and Z?"
   }, {
     "name": "Alex Trebek",
-    "content": "One of the top 20, this 1946 film was based on a short story published as The Man Who Was Never Born.",
-    "note": "Film for 500"
+    "content": "Film for 500: One of the top 20, this 1946 film was based on a short story published as: The Man Who Was Never Born.",
+    "note": "Was it: Citizen Kane, It's a wonderful life, The invisable Man or Great Expectations?"
+  }, {
+    "name": "Alex Trebek",
+    "content": "History for 500: When Galveston was devastated by a hurricane in 1900, she traveled 1,500 miles to head up the relief effort.",
+    "note": "Was it: Clara Barton, Florence Nightingale, Helena Rubinstein or Molly Brown?"
+  }, {
+    "name": "Alex Trebek",
+    "content": "'No matter how hopeless, no matter how far, to fight for the right without question' is from this show",
+    "note": "Was it: Man of La Manchea, Rent, Les Miserables or Camelot?"
   }]
 }
