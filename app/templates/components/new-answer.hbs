@@ -1,16 +1,17 @@
-<!-- {{#if addNewAnswer}}
-  <h1>New Answer</h1>
+{{#if addAnswer}}
   <form>
     <div class="form-group">
       <label for="name"> Name:</label>
-      {{input value=name id="name"}}
+      {{input id="name" value=name placeholder="your name"}}
     </div>
     <div class="form-group">
       <label for="content">Answer:</label>
-      {{input value=content id="content" }}
+      {{input id="content" value=content placeholder="your answer"}}
     </div>
-    <button {{action 'saveAnswer'}}>Submit</button>
+    <button {{action 'saveAnswer'}}>Submit Answer</button>
   </form>
 {{else}}
-  <button {{action 'answerFormShow'}}>New Answer</button>
-{{/if}} -->
+  <hr>
+  <h3>Click bellow to answer this Question:</h3>
+  <button {{action 'showAnswerForm'}} class="btn btn-info">Answer</button>
+{{/if}}

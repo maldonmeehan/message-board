@@ -3,3 +3,12 @@
 {{update-question question=model update="update"}}
 
 {{question-detail question=model}}
+
+{{new-answer question=model saveAnswer="saveAnswer"}}
+
+<h2>Answers:</h2>
+<ul>
+  {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
