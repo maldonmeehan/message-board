@@ -1,0 +1,9 @@
+.jumbotron {
+  margin-bottom: 1px;
+  background-image: url("https://2982-presscdn-29-70-pagely.netdna-ssl.com/wp-content/uploads/2014/10/jeopardy.jpg");
+  background-position: 0% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
