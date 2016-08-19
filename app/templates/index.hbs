@@ -7,13 +7,9 @@
   {{/each}}
 </ul>
 
+<!-- question-tile component will manage how a user sees and interacts with a quesiton
+contents of the orignial {{#each}} loop are in the question-tile template  -->
 
-<!-- <ul>
-  {{#each question as |question|}}
-    <li>By: {{question.name}} </li>
-    <li>Question: {{question.content}}</li>
-    <li>Notes: {{question.note}}</li>
-  {{/each}}
-</ul> -->
+{{new-question save2="save3"}}
 
-<!-- We'll use a helper called {{each}} to loop through each object in our model and display its information, We loop through each object in the model hook defined in the index route handler, and call it question. For each quesiton, we create a list item and display its name and content. -->
+<!-- Here we'll send the new-question component the variable "save2" set to the name of the saving action on the route, "save3". -->
