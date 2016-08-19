@@ -1,0 +1,29 @@
+{{#if updateQuestionForm}}
+  <h4>Update {{question.name}}'s {{question.content}}</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Author:</label>
+        {{input value=name id="name" placeholder=rental.name}}
+      </div>
+
+      <div class="form-group">
+        <label for="content">Question:</label>
+        {{input value=content id="content" placeholder=rental.content}}
+      </div>
+
+      <div class="form-group">
+        <label for="note">Notes:</label>
+        {{input value=note id="note" placeholder=rental.note}}
+      </div>
+
+      <button {{action 'update' question}} class="btn btn-info">Save</button>
+    </form>
+  </div>
+{{else}}
+<button {{action 'updateQuestionForm'}} class="btn btn-info">Update</button>
+{{/if}}
+
+
+<!-- In addition to an update form, we've added a property called updateQuestionForm to toggle the form's display. When this property is false we will see an "Update" button. Clicking the button will set the property to true, which will display the form. -->
+<!-- Additionally, we’ve bound the action update to the “Save” button. When the user fills out the form and hits “Save” the update action in the JavaScript portion of this component will be triggered. -->

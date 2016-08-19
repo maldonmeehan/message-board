@@ -1,7 +1,9 @@
 <li>
   Question: {{question.content}} By: {{question.name}}
+  {{update-question question=question update="update"}}
 </li>
 
 
-<!-- display rental details in the component
-We'll use a helper called {{each}} to loop through each object in our model and display its information, We loop through each object in the model hook defined in the index route handler, and call it question. For each quesiton, we create a list item and display its name and content. -->
+<!-- DISPLAY: display question details in the component-->
+
+<!-- UPDATE: include question=question and update="update"in this line, in order to pass the question object, and the update action we're about to create between the two components -->
