@@ -1,5 +1,4 @@
 <h4>Question by: {{question.name}}</h4>
 <ul>
-  <li>Question: {{question.content}}</li>
-  <li>Answer: {{#link-to 'question' question.id}}click here to answer question and see details.{{/link-to}}</li>
+  <li>Question: {{#link-to 'question' question.id}}{{question.content}}{{/link-to}}</li>
 </ul>

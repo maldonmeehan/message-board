@@ -2,16 +2,17 @@
   <form>
     <div class="form-group">
       <label for="name"> Name:</label>
-      {{input id="name" value=name placeholder="your name"}}
+      {{input id="name" value=name placeholder="name"}}
     </div>
     <div class="form-group">
       <label for="content">Answer:</label>
-      {{input id="content" value=content placeholder="your answer"}}
+      {{input id="content" value=content placeholder="answer"}}
     </div>
-    <button {{action 'saveAnswer'}}>Submit Answer</button>
+    <button {{action 'saveAnswer'}} class="btn btn-info">Submit Answer</button>
   </form>
 {{else}}
   <hr>
   <h3>Click bellow to answer this Question:</h3>
   <button {{action 'showAnswerForm'}} class="btn btn-info">Answer</button>
 {{/if}}
+<hr>
