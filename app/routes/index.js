@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 var questions = [{
   id: 1,
-  name: "Maldon Meehan",
+  name: "Alex Trebek",
   question: "Her recording career lasted just eight years, starting in 1955 with A Church, A Courtroom And Then Good-Bye."
   //patsy cline
 }, {
