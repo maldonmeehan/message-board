@@ -1,17 +1,22 @@
-# Message-board
+# EPICODUS STUDENT PROJECT
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## Ember  Independent Project
 
-## Prerequisites
+### Question and Answer Message Board, August 18, 2016
 
-You will need the following things properly installed on your computer.
+#### By _**Maldon Meehan, Epicodus**_
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+## Description
+
+Create a question and answer message board where a user submits a question and other users can respond with answers.
+
+* Questions should have the content of the question itself, an author and additional notes.
+* Answers should have the content of the answer and the author.
+* Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+* List all questions on the homepage, with only the question and the name of the author showing.
+* Users should be able to click on a question to view additional information.
+* Allow users to add and edit questions.
+* Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 
 ## Installation
 
@@ -25,29 +30,24 @@ You will need the following things properly installed on your computer.
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Known Bugs
 
-Make use of the many generators for code, try `ember help generate` for more details
+* Currently no known bugs
 
-### Running Tests
+## Support and contact details
 
-* `ember test`
-* `ember test --server`
+If you run into any issues or have questions, ideas, or concerns, please feel free to contact Maldon on GitHub.
 
-### Building
+## Technologies Used
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* Ember JS
+* JavaScript
+* NPM
+* Bower
 
-### Deploying
+### License
 
-Specify what it takes to deploy your app.
+*MIT License*
+(https://opensource.org/licenses/MIT)
 
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_Epicodus_**
