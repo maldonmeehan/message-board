@@ -44,6 +44,7 @@ If you run into any issues or have questions, ideas, or concerns, please feel fr
 * JavaScript
 * NPM
 * Bower
+* Firebase
 
 ### License
 
