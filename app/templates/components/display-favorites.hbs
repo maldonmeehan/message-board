@@ -1,5 +1,7 @@
-{{#each favoriteQuestions.questions as |question|}}
-  {{#link-to 'question' question}}
-  <h4>{{question.content}} by {{question.name}}</h4>
-  {{/link-to}}
-{{/each}}
+<div class="favorites">
+  {{#each favoriteQuestions.questions as |question|}}
+    {{#link-to 'question' question}}
+    <h4>{{question.content}} by {{question.name}}</h4>
+    {{/link-to}}
+  {{/each}}
+</div>
