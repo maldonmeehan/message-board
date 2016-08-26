@@ -1,5 +1,8 @@
 <h4>Question:</h4>
-<ul>
-  <li>{{#link-to 'question' question.id}}{{fullQuestion}}{{/link-to}}</li>
-</ul>
+
+<div class="questions">
+    <ul>
+      <li>{{#link-to 'question' question.id}}{{fullQuestion}}{{/link-to}}</li>
+    </ul>
   <button {{action 'addToFavorite' question}} class="btn btn-info">Favorite</button>
+</div>
