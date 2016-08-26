@@ -1,22 +1,27 @@
 { "questions": [{
     "name": "Alex Trebek",
     "content": "Toys for 500: Original sets of this toy that was first sold in 1918 included plans for building Uncle Tom's Cabin.",
-    "note": "Was it: Legos, Lincoln Logs, Fiddlestix and Woodbuilders"
+    "note": "Was it: Legos, Lincoln Logs, Fiddlestix and Woodbuilders",
+    "point": 500,
   }, {
     "name": "Alex Trebek",
     "content": "English for 500: Other than Q, these two letters appear the least in the names of states, each appearing only once.",
-    "note": "Is it: V and X, F and K, J and Z or X and Z?"
+    "note": "Is it: V and X, F and K, J and Z or X and Z?",
+    "point": 400
   }, {
     "name": "Alex Trebek",
     "content": "Film for 500: One of the top 20, this 1946 film was based on a short story published as: The Man Who Was Never Born.",
-    "note": "Was it: Citizen Kane, It's a wonderful life, The invisable Man or Great Expectations?"
+    "note": "Was it: Citizen Kane, It's a wonderful life, The invisable Man or Great Expectations?",
+    "point": 300
   }, {
     "name": "Alex Trebek",
     "content": "History for 500: When Galveston was devastated by a hurricane in 1900, she traveled 1,500 miles to head up the relief effort.",
-    "note": "Was it: Clara Barton, Florence Nightingale, Helena Rubinstein or Molly Brown?"
+    "note": "Clara Barton, Florence Nightingale, Helena Rubinstein or Molly Brown?",
+    "point": 200
   }, {
     "name": "Alex Trebek",
     "content": "No matter how hopeless, no matter how far, to fight for the right without question is from this show.",
-    "note": "Was it: Man of La Manchea, Rent, Les Miserables or Camelot?"
+    "note": "Man of La Manchea, Rent, Les Miserables or Camelot?",
+    "point": 100
   }]
 }
