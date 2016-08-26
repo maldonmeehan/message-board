@@ -13,6 +13,7 @@ export function questionPopularity(params) {
     return Ember.String.htmlSafe('<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>');
   } else if (question.get('answers').get('length') >= 1) {
     return Ember.String.htmlSafe('<i class="fa fa-star" aria-hidden="true"></i>');
-  }
+  } else
+    return Ember.String.htmlSafe('<i class="fa fa-frown-o" aria-hidden="true"></i>');
 }
 export default Ember.Helper.helper(questionPopularity);
