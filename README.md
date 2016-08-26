@@ -25,6 +25,11 @@ Create a question and answer message board where a user submits a question and o
 * `npm install`
 * `bower install`
 
+## Font Awesome
+
+* `$ ember install ember-font-awesome`
+* `$ ember generate ember-font-awesome`
+
 ## Running / Development
 
 * `ember server`
