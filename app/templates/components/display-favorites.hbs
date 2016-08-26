@@ -1,3 +1,5 @@
 {{#each favoriteQuestions.questions as |question|}}
-  {{question.content}} {{question.name}}
+  {{#link-to 'question' question}}
+  <h4>{{question.content}} by {{question.name}}</h4>
+  {{/link-to}}
 {{/each}}
