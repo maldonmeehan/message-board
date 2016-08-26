@@ -16,6 +16,11 @@
         <label for="note">Notes:</label>
         {{input value=note id="note" placeholder=question.note}}
       </div>
+
+      <div class="form-group">
+        <label for="point">Points:</label>
+        {{input value=point id="point" placeholder=question.point}}
+      </div>
       <hr>
       <button {{action 'update' question}} class="btn btn-info">Save</button>
     </form>
